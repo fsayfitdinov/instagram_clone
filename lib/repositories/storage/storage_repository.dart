@@ -1,8 +1,9 @@
 import 'dart:io';
 
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:instagram/repositories/repositories.dart';
 import 'package:uuid/uuid.dart';
+
+import '../../repositories/repositories.dart';
 
 class StorageRepository extends BaseStorageRepository {
   final FirebaseStorage _firebaseStorage;
